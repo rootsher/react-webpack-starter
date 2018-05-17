@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.git/
+.idea/
+*~
+*.log
+*.tmp
+*.swp
+yarn.lock
+.gitignore
+.prettierignore

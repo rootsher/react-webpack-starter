@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "allowJs": true,
+    "noImplicitAny": false,
+    "removeComments": true,
+    "moduleResolution": "node",
+    "target": "es6",
+    "jsx": "react",
+    "allowSyntheticDefaultImports": true
+  },
+  "awesomeTypescriptLoaderOptions": {
+    "useBabel": true,
+    "babelOptions": {
+      "babelrc": false,
+      "presets": [
+        [
+          "@babel/preset-env",
+          {
+            "targets": "last 2 versions, ie 11",
+            "modules": false
+          }
+        ]
+      ]
+    },
+    "babelCore": "@babel/core"
+  },
+  "include": [
+    "./src/**/*"
+  ],
+  "exclude": [
+    "./node_modules/**/*"
+  ]
+}
