@@ -1,17 +1,40 @@
 # react-webpack-starter
 
-## 1. Requirements
+## 1. Features
+
+*   ES5, ES6 (ES2015), ES2016, ESNext
+*   webpack
+    *   webpack-dev-server + HMR
+    *   dynamic imports
+*   typescript
+*   babel + polyfills
+*   jsx + react + react-router v4
+*   material design (material-ui)
+*   css + scss + postcss (CSS modules + cssnext)
+*   prettier + linters
+*   husky (precommit hook) + lint-staged
+
+## 2. TODO list
+
+*   [ ] auto manifest.json + service-worker
+*   [ ] PWA features, assets caching
+*   [ ] better application architecture
+*   [ ] HMR for single component
+*   [ ] tests - unit, e2e (cypress)
+*   [ ] dynamic dependency injection container
+
+## 3. Requirements
 
 *   node (v8.9.4)
 *   yarn (v1.3.2)
 
-## 2. Installation
+## 4. Installation
 
 ```sh
 yarn # [enter] or yarn install
 ```
 
-## 3. Scripts
+## 5. Scripts
 
 ### \* webpack-dev-server (watch mode)
 
@@ -33,21 +56,7 @@ $ yarn start -- --port=8081 # default: 8080
 $ yarn build
 ```
 
-## 4. Features
-
-*   ES5, ES6 (ES2015), ES2016, ESNext
-*   webpack
-    *   webpack-dev-server + HMR
-    *   HMR
-    *   dynamic imports
-*   typescript
-*   babel + polyfills
-*   jsx + react + react-router v4
-*   material design (material-ui)
-*   css + scss + postcss (CSS modules + cssnext)
-*   prettier + linters
-
-## 5. Capabilities
+## 6. Capabilities
 
 ### _ importing image files i.e. `_.jpg`,`_.png`,`_.gif`,`\*.svg`
 
