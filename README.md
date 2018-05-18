@@ -8,7 +8,7 @@
     *   dynamic imports
 *   typescript
 *   babel + polyfills
-*   jsx + react + react-router v4
+*   jsx + react + react-router v4 + RxJS
 *   material design (material-ui)
 *   css + scss + postcss (CSS modules + cssnext)
 *   prettier + linters
