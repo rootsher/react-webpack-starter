@@ -4,9 +4,15 @@ const common = require('./webpack.common');
 
 module.exports = merge(common, {
     mode: 'development',
-    devtool: 'cheap-module-source-map',
+    devtool: 'source-map',
     devServer: {
         contentBase: './dist',
     },
-    plugins: [new webpack.NamedModulesPlugin(), new webpack.HotModuleReplacementPlugin()],
+    plugins: [new webpack.HotModuleReplacementPlugin()],
+    performance: {
+        hints: 'warning',
+        maxEntrypointSize: 400000,
+        maxAssetSize: 100000,
+    },
+    stats: 'errors-only',
 });
